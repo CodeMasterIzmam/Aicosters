@@ -1,0 +1,22 @@
+.feature .slider-img{
+    max-width: 100%;
+}
+.feature{
+    background: linear-gradient(to right,#350074, #32006F);
+}
+.feature .h-gallery{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.feature .btn-abstract{
+    color: #fff;
+    background-color: #0024FF;
+    border: 1px solid #FFFFFF;
+    width: 130px;
+    padding: 5px 0px;
+    border-radius: 12px;
+}

@@ -1,0 +1,46 @@
+.art .links {
+  justify-content: center;
+  align-items: center;
+}
+.art .headlist{
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif !important;
+}
+.art .reg-btn{
+    color: #FCFFFF;
+    background-color: inherit;
+    border: 2px solid #0024FF;
+    border-radius: 8px;
+    padding: 8px 17px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.art{
+    color: #FCFFFF;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 60px;
+}
+.art .sp {
+  margin: 0px 20px;
+}
+.art p{
+    padding-bottom: 0px !important;
+}
+.art .links a {
+  color: #fcffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.art  a {
+  color: #fcffff;
+  text-decoration: none;
+}
+@media (max-width:750px) {
+  
+.art{
+  padding: 20px;
+}
+}

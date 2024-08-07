@@ -1,0 +1,11 @@
+.cd-image{
+    max-width: 150px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.img-list{
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,30 @@
+.advertisement .row p{
+    font-size: 13px;
+}
+.advertisement{
+    background: linear-gradient(to bottom,#37037F, #2A047E);
+}
+.advertisement .row{
+    --bs-gutter-x: 1.5rem;
+}
+.advertisement .h-sell-work{
+    margin: 15px 0px;
+}
+.advertisement .ad-card{
+    background-color: #2B196D;
+    width: 48%;
+    margin-top: 40px;
+    padding: 0px 20px;
+}
+.advertisement .create{
+    width: 140px;
+    padding: 5px 0px;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+@media (max-width:750px) {
+    .advertisement .ad-card{
+        width: 100%;
+    }
+}

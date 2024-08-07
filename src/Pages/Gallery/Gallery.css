@@ -1,0 +1,40 @@
+.gallery .headlist{
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif !important;
+}
+.gallery p{
+    margin-bottom: 0px;
+}
+.gallery .gallery-h{
+    font-weight: bold;
+}
+.gallery .links {
+    justify-content: center;
+    align-items: center;
+    color: #fcffff;
+    font-size: 12px;
+  }
+  .gallery .next-btn{
+    border: 1px solid #FCFFFF;
+    color: #FCFFFF;
+    background-color: #0024FF;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 40px;
+}
+.gallery .links a {
+    color: #fcffff;
+    text-decoration: none;
+  }
+.gallery {
+    background:linear-gradient(to right top,#25099a, #45005f);
+    color: #fcffff;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+  .g-body {
+    background: inherit;
+    font-family: "Poppins", sans-serif;
+  }
+  

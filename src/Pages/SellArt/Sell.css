@@ -1,0 +1,70 @@
+.sell .headlist{
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif !important;
+}
+.sell p ,.ul li , td {
+    font-size: 14px;
+}
+.sell .thead{
+    width: 20%;
+}
+.sell .table{
+    border: 1px solid;
+    width: 90%;
+}
+.sell .table .th , .td{
+    border: 1px solid #FCFFFF !important;
+}
+.sell .table .th{
+    font-size: 17px;
+    font-weight: 500;
+}
+.sell .table .td{
+    padding: 10px 10px !important;
+}
+.sell .col-reg{
+    text-align: center;
+}
+.sell p{
+    margin-bottom: 0px;
+}
+.sell .d-reg{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.sell .reg-h{
+    color: #00D0FE;
+    padding-bottom: 15px;
+}
+.sell .bt-reg{
+    border: 2px solid #00D0FE;
+    background-color: inherit;
+    color: #FCFFFF;
+    padding: 10px 25px;
+    font-size: 19px;
+}
+.sell{
+    background: linear-gradient(to right, #25099a, #45005F);
+    color: #FCFFFF;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.sell .links{
+    justify-content: center;
+    align-items: center;
+    color: #FCFFFF;
+    font-size: 12px;
+    }
+    .sell  .links a{
+        color: #FCFFFF;
+        text-decoration: none;
+    }
+    @media (max-width:750px) {
+        .sell{
+            padding: 20px;
+        }
+    }

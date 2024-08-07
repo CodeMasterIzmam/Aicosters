@@ -1,0 +1,30 @@
+.topics .head-blog{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 50px 0px;
+}
+.topics .card small{
+    font-size: 12px;
+    font-weight: 300 !important;
+}
+.topics .card p{
+    font-weight: 500;
+}
+.topics .card{
+    color: #fff;
+    background-color: #25106B;
+}
+.topics .btn-land{
+    border: 0px;
+    width: 80%;
+    margin-top: -45px;
+    background: #5D0A98;
+    opacity: 0.6;
+    color: #fff;
+    text-align: center;
+    height: 70px;
+    padding: 10px 20px ;
+}

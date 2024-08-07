@@ -1,0 +1,115 @@
+.g-body .headlist{
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif !important;
+}
+.g-body .btn-close{
+    background-color: #FCFFFF;
+    opacity: 1;
+}
+.g-body .offcanvas{
+    background-color: inherit;
+}
+.g-body .next-btn{
+    border: 1px solid #FCFFFF;
+    color: #FCFFFF;
+    background-color: #0024FF;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 40px;
+}
+.g-body .col-md-3 .btn-primary{
+    display: none !important;
+}
+.g-body p{
+    margin-bottom: 0px;
+}
+.g-body .card{
+    border-radius: 0px;
+    background-color: inherit;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.g-body .card-footer{
+    background-color: #211756;
+}
+.g-body .d-impress{
+    align-items: first baseline;
+}
+.g-body .ant-slider-handle {
+    color: #fcffff;
+    border: #193452 !important;
+}
+.g-body .inp-check{
+    margin-right: 10px;
+    background-color: inherit;
+}
+/* .g-body.custom-slider .ant-slider-track { */
+    /* background-color: #193452 !important; Change the background color to your desired color */
+  /* } */
+.g-body .ant-slider{
+margin-top: 0cm !important;
+}
+.g-body .slider-value{
+    justify-content: space-between;
+}
+.g-body .g-body-h{
+    font-weight: bold;
+}
+.g-body .btn-price {
+    background-color: #18324D !important;
+    color: #fcffff;
+    border: 0px;
+    border-radius: 4px;
+    padding: 2px 15px;
+    font-size: 14px;
+    /* width: 60px ; */
+}
+/* .g-body .links {
+    justify-content: center;
+    align-items: center;
+    color: #fcffff;
+    font-size: 12px;
+  } */
+/* .g-body .links a {
+    color: #fcffff;
+    text-decoration: none;
+  } */
+.g-body {
+    color: #fcffff;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-family: "Poppins", sans-serif;
+  }
+  .g-body .row{
+    --bs-gutter-x: 0.5rem;
+  }
+  .g-body .offcanvas-link{
+    display: none;
+  }
+  .g-body .display-none{
+    display: none;
+  }
+  .g-body a{
+    text-decoration: none;
+    color: #FCFFFF;
+  }
+  .g-body small{
+font-size: 12px;
+  }
+  @media (max-width:750px) {
+    .g-body{
+        padding: 20px;
+    }
+}
+  @media (max-width:920px) {
+    .g-body .offcanvas-link{
+        display: block !important;
+    }
+    .g-body .col-md-3{
+        display: none;
+    }
+    .g-body .col-md-9{
+        width: 100%;
+    }
+}

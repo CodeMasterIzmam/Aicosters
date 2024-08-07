@@ -1,0 +1,114 @@
+.main-nav nav {
+    background-image: linear-gradient(to right, #1310B9, #290A94, #310171) !important;
+    padding: 23px 60px !important;
+    width: 100%;
+}
+
+.main-nav nav .navbar-brand {
+    font-size: 23px !important;
+    color: white !important;
+}
+.main-nav nav a {
+    color: white !important;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main-nav nav .navbar-nav {
+    gap: 28px !important;
+}
+
+.main-nav nav .ul2 {
+    gap: 0px !important;
+}
+
+.main-nav nav .nav-item {
+    margin-left: 0px !important;
+}
+
+.main-nav nav .bottomMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.main-nav nav .search {
+    margin-top: 10px !important;
+}
+
+.main-nav nav .search .ant-input-group-wrapper {
+    width: 100%;
+    width: 400px;
+    /* background-color: transparent !important; */
+    border-radius: 17px !important;
+}
+
+.main-nav nav .search .ant-input-group-wrapper .ant-input-group {
+    border-radius: 17px !important;
+    /* background-color: transparent !important; */
+    border-right: 0px !important;
+}
+
+.main-nav nav input {
+    /* background-color: transparent !important; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main-nav{
+    margin-bottom: 100px !important;
+}
+.main-nav nav .ant-input-group .ant-input-group-addon,
+.main-nav nav .ant-input-group .ant-input-group-addon button {
+    /* background-color: transparent !important; */
+    /* color: white !important; */
+    border-left: 0px !important;
+}
+
+.main-nav nav .ant-input-group>.ant-input:first-child,
+.main-nav nav .ant-input-group-addon:first-child {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.main-nav .offcanvas{
+    background-color: #1310B9 !important;
+}
+.main-nav .off-canvas .search .ant-input-group-wrapper{
+    width: 100%;
+}
+.main-nav .offcanvas-header .btn-close{
+    background-color: aliceblue !important;
+    opacity: 2;
+}
+.main-nav .logo{
+    max-width: 200px ;
+}
+/* @media (min-width: 992px) {
+    .main-nav .bottomMenu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+} */
+@media (max-width: 450px) {
+.main-nav .logo{
+    width: 150px;
+}
+}
+@media (max-width: 750px) {
+.main-nav nav{
+    padding: 23px 10px !important;
+}
+}
+@media (max-width: 991px) {
+.main-nav .nav-top-bottom{
+    display: none;
+}
+}
+@media (min-width: 992px) {
+    .main-nav .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .main-nav .off-canvas{
+        display: none;
+    }
+}

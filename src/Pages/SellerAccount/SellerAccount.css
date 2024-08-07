@@ -1,0 +1,109 @@
+.seller .artist-background{
+    background: linear-gradient(to right top, #25099a, #4B0067);
+    color: #fcffff;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+  }
+  .seller .sty-b{
+          text-decoration: underline;
+          /* text-decoration-color: #03C6F2; 
+          text-decoration-thickness: 2px; */
+  }
+  .seller{
+    color: #fcffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .seller .sellerof{
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 8px 50px;
+      background-color: inherit;
+      color: #fcffff;
+      border: 1px solid #FEFCFD;
+      border-radius: 3px;
+  }
+  .seller .card-img{
+    height: 390px;
+  }
+  .seller .btn-contact {
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 8px 41px;
+      background-color: #0024FF;
+      color: #fcffff;
+      border: 1px solid #FEFCFD;
+      border-radius: 3px;
+      margin-bottom: 30px;
+  }
+  .seller .card{
+      border: 0px;
+      border-radius: 0px;
+  }
+  .seller .ant-input{
+    background-color: #1F4A77;
+    color: #fcffff !important;
+  }
+  .seller .anticon svg {
+    color: white !important;
+    width: 20px;
+    height: 20px;
+}
+  .seller .ant-input-group-addon:last-child .ant-input-search-button{
+    border: 0px !important;
+    border-top-right-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+    background-color: #1F4A77;
+    padding-right: 10px;
+  }
+  .seller .g-body{
+    background: linear-gradient(to right top,#25099a, #4D006A);
+  }
+  .seller .ant-input-search .ant-input-search-button{
+    height: 40px !important;
+  }
+  .seller .ant-input-group .ant-input-affix-wrapper:not(:last-child){
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 0px;
+    height: 40px;
+    background-color: #1F4A77;
+  }
+  .seller .ant-input-group-wrapper{
+    width: 50%;
+  }
+  .seller .headlist{
+      align-items: center;
+      justify-content: center;
+      font-family: "Playfair Display", serif !important;
+  }
+  .seller .prof-image{
+      border-radius: 50%;
+  }
+  .seller .links {
+    justify-content: center;
+    align-items: center;
+    color: #fcffff;
+  }
+  .seller .links a {
+    color: #fcffff;
+    text-decoration: none;
+  }
+  @media (max-width:750px) {
+    .seller .artist-background{
+      padding: 20px;
+    }
+    .seller .btn-contact{
+        margin-bottom: 45px;
+    }
+  .seller .anticon svg {
+    width: unset;
+    height: unset;
+}
+  }

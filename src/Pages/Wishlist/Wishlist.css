@@ -1,0 +1,21 @@
+.wishlist .headlist {
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display", serif !important;
+}
+.wishlist {
+  color: #fcffff;
+  padding-top: 20px;
+  font-family: "Poppins", sans-serif;
+  background:linear-gradient(to right top,#25099a, #45005f);
+}
+.wishlist .links {
+  justify-content: center;
+  align-items: center;
+  color: #fcffff;
+  font-size: 12px;
+}
+.wishlist .links a {
+  color: #fcffff;
+  text-decoration: none;
+}

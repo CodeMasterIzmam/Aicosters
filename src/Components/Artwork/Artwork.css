@@ -1,0 +1,51 @@
+.artwork{
+    padding: 30px 170px;
+}
+.artwork .h-latest{
+    color: #fcffff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.artwork .view{
+    padding: 8px 30px !important;
+    border-radius: 8px !important;
+}
+.artwork .btn-primary {
+    font-weight: 500;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #0024FF;
+}
+.artwork .price{
+    border: 0px;
+    cursor: default;
+    background-color: #18324D !important;
+    color: #fcffff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 70%;
+    padding: 4px 10px 4px 23px;
+    margin-left: -13px;
+    border-top-right-radius: 7px ;
+    border-bottom-right-radius: 7px ;
+}
+.artwork .card-footer p{
+    font-size: 13px;
+}
+.artwork .card{
+    border: 0px;
+    background-color: #3A1080;
+    color: #fcffff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.artwork .row{
+    --bs-gutter-x: 0rem !important;
+}
+@media (max-width:750px) {
+    .artwork{
+        padding: 30px 20px;
+    }
+}

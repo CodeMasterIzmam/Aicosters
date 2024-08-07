@@ -1,0 +1,13 @@
+.component .price{
+    border: 0px;
+    cursor: default;
+    background-color: #18324D !important;
+    color: #fcffff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 70%;
+    padding: 4px 10px 4px 23px;
+    margin-left: -13px;
+    border-top-right-radius: 7px ;
+    border-bottom-right-radius: 7px ;
+}

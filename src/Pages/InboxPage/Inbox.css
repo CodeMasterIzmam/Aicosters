@@ -1,0 +1,121 @@
+.inbox {
+  color: #fcffff;
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  padding-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.inbox .send-btn{
+  color: #fcffff;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  align-items: center;
+  padding: 0.5em 4em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #0024FF;
+  border: 1px solid #818183;
+}
+.inbox .chat-inp{
+  width: 100%;
+  color: #fcffff;
+  background-color: inherit;
+  border: 1px solid #818183;
+  border-radius: 0px;
+  padding: 20px 55px ;
+}
+.inbox .ib-chat .pro-img{
+  width: 40px;
+}
+.inbox .p{
+  font-size: 13px;
+}
+.inbox .text-right{
+  text-align: right;
+  margin-left: auto;
+}
+.inbox .text-right .online{
+  margin-left: auto !important;
+  margin-top: -12px;
+}
+
+.inbox .d-img {
+  border-bottom: 1px solid #818183;
+}
+.inbox .p-online {
+    display: flex;
+  align-items: first baseline;
+  padding: 10px 0px 0px 0px;
+}
+.inbox .online {
+  padding: 0px 6px;
+  background-color: #89c24f;
+  height: 12px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+.inbox .row2{
+  border-left: 2px solid #818183;
+  border-bottom: 2px solid #818183;
+  border-right: 2px solid #818183;
+}
+.inbox .b-r{
+  border-right: 1px solid #818183;
+}
+.inbox .b-l{
+  border-left: 1px solid #818183;
+}
+.inbox .chat {
+  border: 1px solid #818183;
+}
+.inbox .row {
+  --bs-gutter-x: 0rem;
+}
+.inbox .chat h6{
+  margin-bottom: 0px;
+}
+.inbox p {
+  margin-top: unset;
+  margin-bottom: 0px;
+}
+.inbox .all-con {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: 20px 0px;
+}
+.inbox .pro-img {
+  border-radius: 50%;
+  width: 50px;
+}
+.inbox .row21 {
+  border: 1px solid #818183;
+}
+.inbox .headlist {
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display", serif !important;
+}
+.inbox .links {
+  justify-content: center;
+  align-items: center;
+}
+.inbox .links a {
+  color: #fcffff;
+  text-decoration: none;
+  font-size: 12px;
+}
+.inbox .sp {
+  margin: 0px 20px;
+}
+
+@media (max-width:750px) {
+  .inbox{
+      padding: 20px;
+  } 
+}

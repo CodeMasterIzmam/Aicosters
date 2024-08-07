@@ -1,0 +1,108 @@
+.dashboard  a{
+    color: #FCFFFF !important;
+}
+.dashboard .profile-img{
+    width: 100px;
+    height: 105px;
+}
+.dashboard .artist-p{
+  font-size: large;
+  font-family: "Playfair Display", serif !important;
+}
+.dashboard .primary{
+    color: #00D6F9 !important;
+}
+.dashboard .artist-h{
+    font-family: "Playfair Display", serif !important;
+}
+.dashboard .pl-4{
+    padding-left: 20px;
+}
+.dashboard .space{
+    justify-content: space-between;
+}
+.dashboard .fs-12{
+    font-size: 13px;
+}
+.dashboard .zero{
+    background-color: #0923FF;
+    padding: 4px 10px;
+    border-radius: 50%;
+    border: 1px solid #F7FCF6;
+}
+.dashboard .user-name{
+    font-family: "Playfair Display", serif !important;
+}
+.dashboard p{
+    margin-bottom: 0px;
+}
+.dashboard  .headlist {
+    align-items: center;
+    justify-content: center;
+    font-family: "Playfair Display", serif !important;
+  }
+  .dashboard .active{
+    font-weight: 500;
+    font-size: 13px !important;
+  }
+  .dashboard .sp {
+    margin: 0px 20px;
+    color: #fcffff;
+  }
+  .dashboard .links {
+    justify-content: center;
+    align-items: center;
+  }
+  .dashboard  .links a {
+    color: #fcffff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .dashboard hr{
+    /* color: #4E2BCD; */
+    /* height: 2px; */
+    margin-top: 20px;
+  }
+  .dashboard .col-md-9 a{
+    text-decoration: none;
+    /* color: #00D6F9 !important; */
+  }
+  .dashboard .btn-primary {
+    color: #F7FCF6;
+    background-color: #041FFF;
+    padding: 5px 10px;
+    border: 1px solid #F7FCF6;
+    margin-top: 35px;
+  }
+  .dashboard .btn-primary a{
+    text-decoration: none;
+  }
+.dashboard{
+    color: #FCFFFF;
+    padding-top: 20px;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to left, #1711B3, #360267);
+}
+.dashboard .nav-item{
+    display: flex;
+    padding: 2px 15px;
+  }
+  .dashboard .liAccou{
+    text-decoration: underline;
+    /* text-decoration-color: #03C6F2; */
+    /* text-decoration-thickness: 5px; */
+  }
+  @media (max-width:750px) {
+    .dashboard{
+        padding: 20px;
+    }
+  }
+  @media (max-width:1100px) {
+    .dashboard .col-md-3{
+      margin-right: 20px;
+      width: 100%;
+    }
+  }
